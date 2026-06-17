@@ -1,0 +1,97 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="ScaIsW1wfECqYgjXzyEO" name="페이지-1">
+    <mxGraphModel dx="1664" dy="924" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="k-mY1Jivkg334-SurCks-24" edge="1" parent="1" source="k-mY1Jivkg334-SurCks-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="k-mY1Jivkg334-SurCks-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k-mY1Jivkg334-SurCks-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;시작&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="140" x="360" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="k-mY1Jivkg334-SurCks-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;종료&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="140" x="360" y="1110" as="geometry" />
+        </mxCell>
+        <mxCell id="k-mY1Jivkg334-SurCks-26" edge="1" parent="1" source="k-mY1Jivkg334-SurCks-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="k-mY1Jivkg334-SurCks-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k-mY1Jivkg334-SurCks-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;공공데이터포털 API 호출&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;(Python - requests)&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="325" x="267.5" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="k-mY1Jivkg334-SurCks-27" edge="1" parent="1" source="k-mY1Jivkg334-SurCks-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="k-mY1Jivkg334-SurCks-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k-mY1Jivkg334-SurCks-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;응답 데이터 수신 (JSON)&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;(Python - requests)&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="325" x="267.5" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="k-mY1Jivkg334-SurCks-18" edge="1" parent="1" source="k-mY1Jivkg334-SurCks-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="k-mY1Jivkg334-SurCks-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k-mY1Jivkg334-SurCks-28" edge="1" parent="1" source="k-mY1Jivkg334-SurCks-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="k-mY1Jivkg334-SurCks-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k-mY1Jivkg334-SurCks-5" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;응답 상태 200 OK?&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="155" x="352.5" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="k-mY1Jivkg334-SurCks-22" edge="1" parent="1" source="k-mY1Jivkg334-SurCks-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="k-mY1Jivkg334-SurCks-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k-mY1Jivkg334-SurCks-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;오류 처리&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;(Python - logging)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="170" x="50" y="335" as="geometry" />
+        </mxCell>
+        <mxCell id="k-mY1Jivkg334-SurCks-7" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;종료&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="140" x="65" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="k-mY1Jivkg334-SurCks-29" edge="1" parent="1" source="k-mY1Jivkg334-SurCks-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="k-mY1Jivkg334-SurCks-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k-mY1Jivkg334-SurCks-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;데이터 전처리&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;(결측치 제거, 중복 제거, 형식 변환)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;(Python - pandas)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="325" x="267.5" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="k-mY1Jivkg334-SurCks-30" edge="1" parent="1" source="k-mY1Jivkg334-SurCks-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="k-mY1Jivkg334-SurCks-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k-mY1Jivkg334-SurCks-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;데이터 저장&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;(PostgreSQL DB - pgAdmin4)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;(Python - psycopg2)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="325" x="267.5" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="k-mY1Jivkg334-SurCks-31" edge="1" parent="1" source="k-mY1Jivkg334-SurCks-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="k-mY1Jivkg334-SurCks-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k-mY1Jivkg334-SurCks-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;분석 및 집계&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;(공항별 / 날짜별 / 시간대별 평균 등)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;(Python - pandas)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="325" x="267.5" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="k-mY1Jivkg334-SurCks-32" edge="1" parent="1" source="k-mY1Jivkg334-SurCks-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="k-mY1Jivkg334-SurCks-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k-mY1Jivkg334-SurCks-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;시각화 생성&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;(matplotlib / seaborn)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;(Python)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="325" x="267.5" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="k-mY1Jivkg334-SurCks-33" edge="1" parent="1" source="k-mY1Jivkg334-SurCks-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="k-mY1Jivkg334-SurCks-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k-mY1Jivkg334-SurCks-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;예상승객 데이터 결과 도출&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;(Python - pandas)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="325" x="267.5" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="k-mY1Jivkg334-SurCks-34" edge="1" parent="1" source="k-mY1Jivkg334-SurCks-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="k-mY1Jivkg334-SurCks-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k-mY1Jivkg334-SurCks-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;CSV 파일 생성 및 다운로드 제공&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;(Python - pandas)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="325" x="267.5" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="k-mY1Jivkg334-SurCks-35" edge="1" parent="1" source="k-mY1Jivkg334-SurCks-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="k-mY1Jivkg334-SurCks-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k-mY1Jivkg334-SurCks-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;웹 서비스에 결과 제공&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;(Flask 웹 프레임워크)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="325" x="267.5" y="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="k-mY1Jivkg334-SurCks-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#36393d;fillColor=#eeeeee;align=center;verticalAlign=middle;rounded=0;fontSize=14;fontStyle=1" value="선택 기능 명 : 예상승객 조회" vertex="1">
+          <mxGeometry height="30" width="170" x="160" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="k-mY1Jivkg334-SurCks-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;rounded=0;fontSize=13;fontColor=#333333;" value="선택 이유 : 사용자가 공항별 ·날짜별 혼잡도를 파악하기 위해 가장 많이 사용하는 핵심 기능이기 때문" vertex="1">
+          <mxGeometry height="30" width="555" x="160" y="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
